@@ -1,0 +1,44 @@
+.desktop {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-image: url(./rainbow.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1024px;
+  position: relative;
+  width: 1440px;
+}
+
+.desktop .text-wrapper {
+  color: #000000;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-size: 150px;
+  font-weight: 800;
+  height: 182px;
+  left: 183px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 420px;
+}
+
+.desktop .p {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 114px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 888px;
+  white-space: nowrap;
+}
